@@ -1,0 +1,74 @@
+/* Styling for UserLogin component */
+
+/* Background image */
+body {
+    background-image: url('https://img.freepik.com/free-vector/flat-international-nurses-day-illustration_23-2149359415.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensures full viewport height */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border: none;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #28a745; /* Green color on hover */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-light {
+    color: #f8f9fa; /* Light color */
+}
+
+.text-light:hover {
+    text-decoration: underline;
+    color: #dee2e6; /* Lighter color on hover */
+}
+
+/* Error message styling */
+#error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 80vw;
+    }
+}

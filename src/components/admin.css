@@ -1,0 +1,127 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/national-doctor-s-day-hand-drawn-background_23-2149438164.jpg?w=996&t=st=1711287560~exp=1711288160~hmac=aa0753808ef01b2873e08ea8d87d0caafa7d595ccd8a0dff23c01d4dbcfd70b4');
+    background-size: 100% 100%; /* Fit the background image to the entire page */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Ensure consistent font across the page */
+    background-color: rgba(255, 255, 255, 0.3); /* Increase transparency (lower alpha value) */
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #d39e00;
+    border-color: #d39e00;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #117a8b;
+    border-color: #117a8b;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+.offset-10 {
+    margin-left: 83.333333%;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.my-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

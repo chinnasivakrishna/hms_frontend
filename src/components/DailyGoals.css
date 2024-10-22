@@ -1,0 +1,86 @@
+/* Daily Goals Container */
+body {
+    background-image: url('https://img.freepik.com/free-vector/national-doctor-s-day-hand-drawn-background_23-2149438164.jpg?w=996&t=st=1711287560~exp=1711288160~hmac=aa0753808ef01b2873e08ea8d87d0caafa7d595ccd8a0dff23c01d4dbcfd70b4');
+    background-size: 100% 100%; /* Fit the background image to the entire page */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Ensure consistent font across the page */
+    background-color: rgba(255, 255, 255, 0.3); /* Increase transparency (lower alpha value) */
+}
+.daily-goals-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px; /* Add round corners */
+    background-color: rgba(65, 217, 255, 0.8); /* White background with transparency */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: flex; /* Center elements horizontally */
+  }
+  .icon {
+    width: 45px; /* Adjust width as needed */
+    height: 45px; /* Adjust height as needed */
+  }
+  
+  
+  /* Form Formatting */
+  .daily-goals-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .daily-goals-form label {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif; /* Use Raleway font for labels */
+    color: #333; /* Darker text color */
+  }
+  
+  .daily-goals-form textarea,
+  .daily-goals-form input {
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Round corners for input fields */
+    padding: 10px;
+    font-family: inherit; /* Inherit font family from body */
+    color: #666; /* Lighter text color for readability */
+  }
+  
+  .daily-goals-form button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; /* Round corners for button */
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for button */
+    transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .daily-goals-form button:hover {
+    background-color: #45a049; /* Green shade on hover */
+  }
+  
+  /* Diet Section */
+  .goal-section h3 {
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif; /* Use Lato font for headings */
+    color: #007bff; /* Blue heading color */
+  }
+  
+  /* Diet Textareas */
+  .goal-section textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Round corners for textareas */
+    padding: 10px;
+    font-family: inherit; /* Inherit font family from body */
+    color: #666; /* Lighter text color for readability */
+  }
+  
+  /* Additional Styling */
+  .goal-section {
+    margin-bottom: 20px;
+  }
+  
